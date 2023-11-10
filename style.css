@@ -1,0 +1,34 @@
+
+@keyframes renk-change {
+    30% {
+      color: green;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    45% {
+      color: blue;
+    }
+}
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+
+    color: #ff0000; /* Metin rengi */
+    animation: renk-change 3s infinite;
+}
+
+h1 {
+    color: #1200da; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+p{color:#7bff00; font-size: 42px;}
+p1{color:#00cc33; font-size: 50px;}
+
+
+
+h1 {
+    animation: renk-change 3s infinite;
+}
